@@ -5,7 +5,7 @@ int main()
 {
     int figure=0;
     float a,b,c,perimeter,area;
-    printf("以顺序请输入三角形的三条边长a,b,c（之间用空格分开）:");
+    printf("请以顺序输入三角形的三条边长a,b,c（之间用空格分开）:");
     scanf("%f %f %f",&a,&b,&c);
     if((a+b)>c&&(a-b)<c&&a&&b&&c)
         figure=1;
